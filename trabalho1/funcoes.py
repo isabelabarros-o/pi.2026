@@ -49,7 +49,6 @@ def bilinear_ampliacao(img):
 
             matriz_ampliada[i*2+1][j*2] = (int(img[i][j]) + int(img[proximo_i][j])) // 2
             matriz_ampliada[i*2][j*2+1] = (int(img[i][j]) + int(img[i][proximo_j])) // 2
-            matriz_ampliada[i*2+1][j*2+1] = (int(img[i][j]) + int(img[proximo_i][j]) + 
-                                             int(img[i][proximo_j]) + int(img[proximo_i][proximo_j])) // 4
+            matriz_ampliada[i*2+1][j*2+1] = (int(img[i][j]) + int(img[proximo_i][j]) + int(img[i][proximo_j]) + int(img[proximo_i][proximo_j])) // 4
             
     return matriz_ampliada
