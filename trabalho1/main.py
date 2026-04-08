@@ -1,3 +1,6 @@
+#Alunos: Isabela Barros de Oliveira e Mateus Leopoldo
+#Necessário instalar as bibliotecas Pillow e numpy para manipulação de imagens: "pip install Pillow" e "pip install numpy"
+
 from PIL import Image
 import numpy as np
 from funcoes import vizinho_reducao, vizinho_ampliacao, bilinear_reducao, bilinear_ampliacao
