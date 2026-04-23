@@ -26,7 +26,7 @@ Implementação de algoritmos para alteração da resolução espacial de imagen
 * **Interpolação Bilinear**: Utiliza os quatro vizinhos mais próximos para calcular a nova intensidade através de uma média ponderada, garantindo resultados mais suaves.
 
 ### 🚀 Trabalho 2: Rotulação de Componentes Conectados
-Algoritmo voltado para a análise de imagens binárias, identificando e rotulando regiões isoladas (objetos). É uma etapa fundamental para tarefas de contagem e extração de características em visão computacional.
+Implementação do algorítmo de rotulação, considerando os conceitos vistos na aula (imagens binárias).
 
 ### 🚀 Trabalho 3: Transformação de Intensidade Negativa
 Implementação de processamento pontual no domínio espacial para inversão de tons.
